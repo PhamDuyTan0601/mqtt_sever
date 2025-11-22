@@ -9,5 +9,22 @@
     "restartPolicyMaxRetries": 10,
     "healthcheckPath": "/health",
     "healthcheckTimeout": 300
-  }
+  },
+  "services": [
+    {
+      "name": "web",
+      "service": {
+        "ports": [
+          {
+            "port": 8080,
+            "protocol": "HTTP"
+          },
+          {
+            "port": 10000,
+            "protocol": "HTTP"
+          }
+        ]
+      }
+    }
+  ]
 }

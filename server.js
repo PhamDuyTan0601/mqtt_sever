@@ -50,7 +50,7 @@ mongoose
 // ================================
 // 🚀 START SERVER - CHỈ CẦN 1 SERVER
 // ================================
-const PORT = process.env.PORT || 10000; // ⚠️ DÙNG PORT 10000
+const PORT = process.env.PORT || 8080; // ⚠️ DÙNG PORT 10000
 
 app.listen(PORT, () => {
   console.log(`🚀 HTTP Server running on port ${PORT} (for ESP32)`);
